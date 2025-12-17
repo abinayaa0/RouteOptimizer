@@ -1,6 +1,3 @@
-The following is a corrected and detailed **README.md** for your repository. It aligns with the specific focus on **healthy walking routes**, pollution minimization, and the Deep Q-Network (DQN) implementation in your `pollutionoptimizer` folder.
-
----
 
 #RouteOptimizer: Health-Conscious Walking Path Finder with Deep Q-Networks**RouteOptimizer** is an AI-driven navigation agent designed to find the **healthiest walking route** rather than just the shortest one. By utilizing **Deep Reinforcement Learning (DQN)**, the system learns to navigate urban environments while minimizing the pedestrian's exposure to harmful air pollutants (PM2.5, NO_2) while still ensuring a reasonable travel time.
 
