@@ -1,9 +1,11 @@
 
-#RouteOptimizer: Health-Conscious Walking Path Finder with Deep Q-Networks**RouteOptimizer** is an AI-driven navigation agent designed to find the **healthiest walking route** rather than just the shortest one. By utilizing **Deep Reinforcement Learning (DQN)**, the system learns to navigate urban environments while minimizing the pedestrian's exposure to harmful air pollutants (PM2.5, NO_2) while still ensuring a reasonable travel time.
+## Pollution based Route Optimizer:
+Health-Conscious Walking Path Finder with Deep Q-Networks**RouteOptimizer** is an AI-driven navigation agent designed to find the **healthiest walking route** rather than just the shortest one. By utilizing **Deep Reinforcement Learning (DQN)**, the system learns to navigate urban environments while minimizing the pedestrian's exposure to harmful air pollutants (PM2.5, NO_2) while still ensuring a reasonable travel time.
 
 ---
 
-## Problem StatementIn urban route planning, the standard objective is almost always to minimize **distance** or **time**. However, for pedestrians, cyclists, and joggers, the "shortest" path often poses significant health risks.
+## Problem Statement:
+In urban route planning, the standard objective is almost always to minimize **distance** or **time**. However, for pedestrians, cyclists, and joggers, the "shortest" path often poses significant health risks.
 
 1. **Pollution Exposure**: Major arterial roads—often the straightest paths—are hotspots for vehicle emissions. Walking along these routes increases the inhalation of particulate matter, leading to long-term respiratory issues.
 2. **The "Invisible" Cost**: A route that is 5 minutes shorter but has 2x higher Air Quality Index (AQI) levels is a net negative for a user's health.
