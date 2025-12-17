@@ -51,13 +51,14 @@ Through its **reward function**, the DQN agent learns a non-linear policy that n
 > *“Is taking a longer detour worth the reduction in pollution exposure?”*
 
 #### Reward Function
-
-```text
 Reward =
     + (Target Reached)
     - α × (Pollution Level)
     - β × (Step Cost)
+    
 ## Results and Evaluation
+
+
 
 Based on the code structure in the **RouteOptimizer** repository and the logic implemented in the Colab notebook, this section presents a detailed evaluation of the system. Since the notebook executes a reinforcement learning training loop, the results focus on comparing the **Baseline (Dijkstra’s Algorithm)** with the **Proposed Method (Deep Q-Network Agent)**.
 
