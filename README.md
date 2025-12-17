@@ -44,9 +44,10 @@ A Deep Neural Network approximates the Q-values for these high-dimensional state
 
 ---
 
-##📊 Evaluation Reports*For a detailed walkthrough, refer to the [Colab Notebook](https://colab.research.google.com/drive/1_CY_HwVMHWzuTtpjZZyjO0LNpUTCicfb).*
+##  Evaluation Reports*For a detailed walkthrough, refer to the [Colab Notebook](https://colab.research.google.com/drive/1_CY_HwVMHWzuTtpjZZyjO0LNpUTCicfb).*
 
-###1. Shortest vs. Healthiest Path ComparisonWe evaluated the agent on 500 test episodes. The results highlight the trade-off:
+## 1. Shortest vs. Healthiest Path ComparisonWe evaluated the agent on 500 test episodes.
+The results highlight the trade-off:
 
 | Metric | Traditional Shortest Path | Deep-QN (Healthy) Path | Impact |
 | --- | --- | --- | --- |
@@ -56,8 +57,10 @@ A Deep Neural Network approximates the Q-values for these high-dimensional state
 
 **Insight:** The DQN agent successfully learned to take "green detours." It accepts a slight increase in walking distance to bypass "Red Zones" (high traffic/pollution areas), effectively solving the problem statement.
 
-###2. Convergence Analysis* **Loss Curve:** The agent's loss stabilizes after ~300 episodes, indicating effective learning of the Q-values.
-* **Reward Accumulation:** Early episodes show low rewards (hitting pollution pockets). Late episodes show consistently high rewards (finding clean paths efficiently).
+### 2. Convergence Analysis* 
+**Loss Curve:** 
+The agent's loss stabilizes after ~300 episodes, indicating effective learning of the Q-values.
+**Reward Accumulation:**: Early episodes show low rewards (hitting pollution pockets). Late episodes show consistently high rewards (finding clean paths efficiently).
 
 ---
 
@@ -100,14 +103,11 @@ python train.py
 
 *This will train the DQN agent to navigate the pollution map and save the model weights.*
 4. **Evaluate**
-Use the provided Colab notebook to load the trained model and visualize the routes.
+Use the provided Colab notebook to load the trained model and visualize the routes. 
+https://colab.research.google.com/drive/1_CY_HwVMHWzuTtpjZZyjO0LNpUTCicfb
+
 
 ---
 
-##🤝 ContributingContributions are welcome! We are looking for:
 
-* Integration with real-time OpenAQ API data.
-* Expansion to 3D terrain (hills/elevation).
-* Comparison with other algorithms (A* with weights).
 
-##📜 LicenseMIT License.
